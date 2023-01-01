@@ -1,9 +1,10 @@
 interface system
 =================
 
-what is:
+this:
 - law of orthogonality
 - double jeapady
+- dry (don't repeat yourself)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -25,8 +26,18 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`is hello PERSON`](#is-hello-person)
+* [`is hi PLANET`](#is-hi-planet)
 * [`is hello world`](#is-hello-world)
+* [`is building YEAR`](#is-assignment-name)
+* [`is team MOUNTH`](#is-assignment-name)
+* [`is project DAY`](#is-assignment-name)
+* [`is assignment FIRST MIDDLE LAST`](#is-assignment-name)
+* [`is knockdoor ID`](#is-knock-door)
+* [`is passdoor ID`](#is-pass-door)
+* [`is exitdoor ID`](#is-exit-door)
+* [`is notdoor ID`](#is-exit-door)
+* [`is notdoor ID`](#is-exit-door)
+
 * [`is help [COMMAND]`](#is-help-command)
 * [`is plugins`](#is-plugins)
 * [`is plugins:install PLUGIN...`](#is-pluginsinstall-plugin)
