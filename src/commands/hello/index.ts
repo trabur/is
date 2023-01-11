@@ -4,9 +4,7 @@ export default class Hello extends Command {
   static description = 'Say hello'
 
   static examples = [
-    `$ oex hello friend --from oclif
-hello friend from oclif! (./src/commands/hello/index.ts)
-`,
+    `$ is hello mars --from earth`,
   ]
 
   static flags = {

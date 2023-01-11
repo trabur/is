@@ -9,6 +9,7 @@
     "target": "es2019"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "monster/build/**/*"
   ]
 }

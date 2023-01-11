@@ -18,13 +18,16 @@
   "dependencies": {
     "@oclif/core": "^1.23.0",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.9"
+    "@oclif/plugin-plugins": "^2.1.9",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.17",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.18.11",
+    "@types/supports-color": "^8.1.1",
+    "@types/uuid": "^9.0.0",
     "chai": "^4",
     "eslint": "^7.32.0",
     "eslint-config-oclif": "^4",

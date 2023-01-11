@@ -1,0 +1,19 @@
+{
+  "name": "construction",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start:semiconductor": "npm run build && node build/semiconductor.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/uuid": "^9.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
