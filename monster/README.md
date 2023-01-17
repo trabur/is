@@ -52,6 +52,7 @@ Runescape Archaeology How to Pass The Ritual Room (Infernal Source) [RS3]: https
 ========
 ||6|5|||4|
 Philip the Engineer: https://www.youtube.com/watch?v=SbgXQGYOHbQ
+call stack
 ========
 What is a general classification rider?
 "A general classification rider, also known as a GC rider, is a cyclist who is competing for the overall win in a multi-stage cycling race, such as the Tour de France. The GC rider is typically considered to be the strongest rider in the race and is often the leader of their team. They are typically good at all aspects of cycling, including climbing, time trialing, and sprinting. The leader in overall classification is often determined by time and the rider with the lowest total time at the end of the race is declared the winner." - ChatGPT
@@ -67,6 +68,8 @@ Will it run after 50 years 1948 dodge desoto: https://www.youtube.com/watch?v=PR
 ========
 .Astroid..
 That rug really tied the room together: https://www.youtube.com/watch?v=IwZshlE3HUA&list=PLtoxeJ0aVT65p7yjtDUPuOLFgZ71YbkKf&index=2
+//
+Project Thor: US’s Most lethal Non-nuclear Weapon!: https://www.youtube.com/watch?v=58JIuuxWX8s
 ========
 
 

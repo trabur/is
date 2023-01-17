@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "rimraf ./build && tsc",
-    "start:semiconductor": "npm run build && node build/semiconductor.js"
+    "start:semiconductor": "npm run build && node build/semiconductor.js",
+    "start:pyramids": "npm run build && node build/pyramids.js",
+    "start:shop": "npm run build && node build/shop.js"
   },
   "dependencies": {
     "chalk": "^5.2.0",
