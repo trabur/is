@@ -1,5 +1,8 @@
 import {Command, Flags} from '@oclif/core'
 
+const Say = require('say').Say
+const say = new Say('darwin' || 'win32' || 'linux')
+
 export default class Hello extends Command {
   static description = 'Say hello'
 
@@ -16,6 +19,8 @@ export default class Hello extends Command {
   async run(): Promise<void> {
     const {args, flags} = await this.parse(Hello)
 
-    this.log(`hello ${args.person} from ${flags.from}! (./src/commands/hello/index.ts)`)
+    let utter = `hello ${args.person} from ${flags.from}!`
+    say.speak(utter)
+    this.log(`${utter} (./src/commands/hello/index.ts)`)
   }
 }
