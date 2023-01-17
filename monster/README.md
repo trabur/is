@@ -50,7 +50,6 @@ Comparison: Computer Viruses (2022) https://www.youtube.com/watch?v=x0mkwbCK2pA
 ========
 !@#$%^&*()
 Crazy Frog - A Ring Ding Ding Ding (Official Video): https://www.youtube.com/watch?v=RWOHKOCr00U
-Things That Go “Bing” With President Trump: https://www.youtube.com/watch?v=pgwr9r36zIU
 ========
 Javelin NLAW sounds like the kind of thing you don't want in your repository code reviewing the "top-end" of your full-stack; what are your thoughts on E2E black box testing?
 "The Javelin NLAW (No Longer in Association With) is a portable, one-shot, anti-tank guided missile produced by Thales Group. It is not something that would typically be found in code repository or used in code review.
