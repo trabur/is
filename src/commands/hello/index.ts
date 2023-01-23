@@ -19,7 +19,7 @@ export default class Hello extends Command {
   async run(): Promise<void> {
     const {args, flags} = await this.parse(Hello)
 
-    let utter = `hello ${args.person} from ${flags.from}!`
+    let utter = `hello ${args.person} welcome to ${flags.from}!`
     say.speak(utter)
     this.log(`${utter} (./src/commands/hello/index.ts)`)
   }
