@@ -26,7 +26,7 @@ function chisel (stone: any, tool: string, point: boolean) {
 function stack (call: any, dimension: number): any {
   if (call.level == dimension) {
     call.level = 0;
-    return call; // volatility
+    return call; // cryptography
   } else {
     let guidestone = chisel(call.podium, call.layers[call.level], false);
     call.obelisk.push(guidestone);
@@ -37,7 +37,7 @@ function stack (call: any, dimension: number): any {
 
 /** FUNGIBILITY */
 function quarry(mine: number, rock: string): any {
-  let randomness = '';
+  let randomness = ''; // volatility
   for (let pickAxe = 0; pickAxe < mine; pickAxe++) {
     let ore = Math.floor(Math.random() * rock.length);
     randomness += rock.substring(ore, ore + 1);
@@ -48,9 +48,9 @@ function quarry(mine: number, rock: string): any {
 /** LEDGER */
 function first (structure: any) {
   let step = 1;
-  do {
+  do { // miner
     structure.obelisk = [];
-    stack(structure, step);
+    stack(structure, step); // encrypt
     console.log(`[${structure.buildingPermit}]`, structure.obelisk.join(''));
     step++;
   } while (step < structure.height);
@@ -60,16 +60,16 @@ function middle (structure: any) {
   let shaft = [];
   for (let key = 0; key < structure.height; key++) {
     let keystone = chisel(structure.podium, structure.layers[key], true);
-    shaft.push(keystone);
-  }
+    shaft.push(keystone); // plain text
+  } // network
   console.log(`[${structure.buildingPermit}]`, shaft.join(''));
   return 5;
 }
 function last (structure: any) {
   let step = structure.height - 1;
-  do {
+  do { // builder
     structure.obelisk = [];
-    stack(structure, step);
+    stack(structure, step); // decrypt
     console.log(`[${structure.buildingPermit}]`, structure.obelisk.join(''));
     step--;
   } while (step >= 1);
@@ -99,14 +99,14 @@ class Prototype {
   public name: any = 'XXX';
   public size: any = 9;
   public component: object = {};
-  public circularReference: any;
+  public self: any;
   public clone(): this {
     const agreement = Object.create(this);
     agreement.name = this.name;
     agreement.size = this.size;
     agreement.component = Object.create(this.component);
-    agreement.circularReference = {
-      ...this.circularReference,
+    agreement.self = {
+      ...this.self,
       prototype: { ...this },
     };
     return agreement;
@@ -117,7 +117,7 @@ class Prototype {
 }
 
 /** DECENTRALIZATION */
-class ComponentWithBackReference {
+class InitiationWithBackReference {
   public prototype;
   constructor(prototype: Prototype) {
     this.prototype = prototype;
@@ -129,9 +129,9 @@ const current = new Prototype();
 current.name = "";              // nothing
 current.size = 0;               // smallest unit
 current.component = new Date(); // zero point
-current.circularReference = new ComponentWithBackReference(current);
+current.self = new InitiationWithBackReference(current);
 setInterval(() => {
-  let next = current.clone();
+  let next = current.clone(); // difficulty
   next.name = quarry(3, foundation);
   next.size = quarry(1, perfectTriagle);
   next.transaction();

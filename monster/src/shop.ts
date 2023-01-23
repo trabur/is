@@ -23,7 +23,7 @@ interface Builder {
 
 class ConcreteBuilder implements Builder {
   private box!: Building;
-  private sign: string = 'abc';
+  private sign: string = 'ABC';
   private post: string = '';
 
   constructor(idea: string, concept: string) {
@@ -61,7 +61,7 @@ class ConcreteBuilder implements Builder {
 
 class Building {
   public stack: string[] = [];
-  private triad: string = 'xyz';
+  private triad: string = 'XYZ';
   private point: string = '';
   private paint: string = '';
 
