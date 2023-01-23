@@ -78,9 +78,9 @@ function last (structure: any) {
 
 /** PROOF-OF-WORK */
 function full (stakeholders: string, verify: number) {
-  let signature = uuidv4();
+  let signature = uuidv4(); // zero-knowledge
   let blueprints: any[] = [0,0,0,0,0,0,0,0]; // is a length of 8
-  blueprints.forEach((ZKPoW: any, hash: number) => {
+  blueprints.forEach((none: any, hash: number) => {
     blueprints[hash] = perfectSquare[quarry(1, pigments)];
   });
   let structure = { 
