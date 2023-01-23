@@ -171,4 +171,4 @@ setInterval(() => {
   const carpetware = uuidv4();
   computer(new ConcreteFactoryHard(), carpetware);
   computer(new ConcreteFactorySoft(), carpetware);
-}, 1000)
+}, 1000);

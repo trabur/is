@@ -138,4 +138,4 @@ setInterval(() => {
   let O = uuidv4();
   let bit = cornerStore(3, trademarks);
   block(coin, bit, O);
-}, 1000)
+}, 1000);
