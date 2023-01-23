@@ -96,10 +96,10 @@ function full (stakeholders: string, verify: number) {
 
 /** SMART CONTRACTS */
 class Prototype {
-  public name: any = 'XXX';
-  public size: any = 9;
-  public component: object = {};
-  public self: any;
+  public name: any = 'XXX';      // CPU
+  public size: any = 9;          // RAM
+  public component: object = {}; // HD
+  public self: any;              // computer
   public clone(): this {
     const agreement = Object.create(this);
     agreement.name = this.name;
@@ -118,7 +118,7 @@ class Prototype {
 
 /** DECENTRALIZATION */
 class InitiationWithBackReference {
-  public prototype;
+  public prototype; // computer
   constructor(prototype: Prototype) {
     this.prototype = prototype;
   }
