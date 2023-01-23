@@ -1,4 +1,4 @@
-/** government */
+/** GOVERNMENT */
 let dollar = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
@@ -7,7 +7,7 @@ const A = 730 * 1000000 // Raider
 const B = 7 * 1000000 // Abrams
 const C = 3 * 1000000000 // LA, Seawolf, Verginia
 
-/** citizenship */
+/** CITIZENSHIP */
 let military: any = []
 const B21 = 7 // Raider
 const A1 = 5 // Abrams
@@ -119,7 +119,7 @@ function command(forces: []) {
   console.log('[3]', fleet)
 }
 
-/** service */
+/** SERVICE */
 setInterval(() => {
   console.log('[0] DoD (Deparment of Defense) {123}');
   tax(A, B, C); deploy(military); command(military);
