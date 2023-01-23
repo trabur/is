@@ -13,9 +13,9 @@ const perfectSquare: string[] = [
 ];
 
 /** MINING */
-function chisel (stone: any, tool: string, direction: boolean) {
+function chisel (stone: any, tool: string, point: boolean) {
   let block = `[${stone}]`;
-  if (direction) {
+  if (point) {
     return chalk.hex(tool)(block); // private
   } else {
     return chalk.bgHex(tool)(block); // public
@@ -26,7 +26,7 @@ function chisel (stone: any, tool: string, direction: boolean) {
 function stack (call: any, dimension: number): any {
   if (call.level == dimension) {
     call.level = 0;
-    return call;
+    return call; // volatility
   } else {
     let guidestone = chisel(call.podium, call.layers[call.level], false);
     call.obelisk.push(guidestone);
@@ -77,15 +77,15 @@ function last (structure: any) {
 }
 
 /** PROOF-OF-WORK */
-function full (podium: string, height: number) {
+function full (stakeholders: string, verify: number) {
   let signature = uuidv4();
   let blueprints: any[] = [0,0,0,0,0,0,0,0]; // is a length of 8
-  blueprints.forEach((block: any, hash: number) => {
+  blueprints.forEach((ZKPoW: any, hash: number) => {
     blueprints[hash] = perfectSquare[quarry(1, pigments)];
   });
   let structure = { 
-    podium,                   // 3 Capital Letters
-    height,                   // maximum level
+    podium: stakeholders,     // three capital letters
+    height: verify,           // maximum level
     level: 0,                 // current layer
     layers: blueprints,       // color barriers
     obelisk: [],              // when the walls fell
@@ -100,17 +100,16 @@ class Prototype {
   public size: any = 9;
   public component: object = {};
   public circularReference: any;
-  constructor () {}
   public clone(): this {
-    const clone = Object.create(this);
-    clone.name = this.name;
-    clone.size = this.size;
-    clone.component = Object.create(this.component);
-    clone.circularReference = {
+    const agreement = Object.create(this);
+    agreement.name = this.name;
+    agreement.size = this.size;
+    agreement.component = Object.create(this.component);
+    agreement.circularReference = {
       ...this.circularReference,
       prototype: { ...this },
     };
-    return clone;
+    return agreement;
   }
   public transaction () {
     full(this.name, this.size);
