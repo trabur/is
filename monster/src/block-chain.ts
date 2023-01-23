@@ -1,6 +1,7 @@
 import chalk from 'chalk';
 import { v4 as uuidv4 } from 'uuid';
 
+const blockColors = '01234567'; 
 const foundation: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const perfectTriagle: string = '573';
 const perfectSquare: string[] = [
@@ -34,16 +35,17 @@ function first (structure: any) {
     stack(structure)
     step++
   } while (step < structure.height)
-  return 1
+  return 6
 }
 
 function middle (structure: any) {
-  let keystone = []
+  let shaft = []
   for (let key = 1; key <= structure.height; key++) {
-    keystone.push(`[${structure.podium}]`)
+    let keystone = chisel(structure.podium, structure.layers[key], true)
+    shaft.push(keystone)
   }
-  console.log(keystone.join(''))
-  return 0
+  console.log(shaft.join(''))
+  return 5
 }
 
 function last (structure: any) {
@@ -52,10 +54,10 @@ function last (structure: any) {
     stack(structure)
     step--
   } while (step >= 1)
-  return 1
+  return 7
 }
 
-function quarry(mine: number, rock: string) {
+function quarry(mine: number, rock: string): any {
   let randomness = '';
   for (let pickAxe = 0; pickAxe < mine; pickAxe++) {
     let ore = Math.floor(Math.random() * rock.length);
@@ -65,12 +67,19 @@ function quarry(mine: number, rock: string) {
 }
 
 function full (podium: string, height: number) {
+  let blueprints: any[] = [0,0,0,0,0,0,0,0] // is a length of 8
+  blueprints.forEach((block: any, hash: number) => {
+    blueprints[hash] = perfectSquare[quarry(1, blockColors)]
+  });
+
   let structure = { 
-    podium, 
-    height,
-    level: 0
+    podium,              // 3 Capital Letters
+    height,              // maximum level
+    level: 0,            // current layer
+    layers: blueprints   // color barriers
   };
-  return first(structure) + middle(structure) + last(structure); // ?
+
+  return first(structure) + middle(structure) + last(structure); // 18
 }
 
-console.log(full("FTX", 3))
+console.log(full("ABC", 3))

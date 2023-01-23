@@ -43,16 +43,19 @@ Tank Cage vs Javelin and NLAW: https://www.youtube.com/watch?v=Tn6zhF6p_Zk
 ========
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 N3ÜRØ- Riddim Or Die: https://www.youtube.com/watch?v=Czd1v56mtVI
+###
 How to tell if your stamp collection is worth anything?: https://www.youtube.com/watch?v=jrRdLEjVH8k
 ========
 abcdefghijklmnopqrstuvwxyz
 watch while you're high: https://www.youtube.com/watch?v=EgRCa_zuM1I
-@@@
+TYUV >- X
+Supernetting in network | Computer Networking: https://www.youtube.com/watch?v=m7TwQ24lF74
+
 Runescape Archaeology How to Pass The Ritual Room (Infernal Source) [RS3]: https://www.youtube.com/watch?v=tgehrdJ31h0
 ========
+code for pyramids
 ||6|5|||4|
 Philip the Engineer: https://www.youtube.com/watch?v=SbgXQGYOHbQ
-call stack
 ========
 What is a general classification rider?
 "A general classification rider, also known as a GC rider, is a cyclist who is competing for the overall win in a multi-stage cycling race, such as the Tour de France. The GC rider is typically considered to be the strongest rider in the race and is often the leader of their team. They are typically good at all aspects of cycling, including climbing, time trialing, and sprinting. The leader in overall classification is often determined by time and the rider with the lowest total time at the end of the race is declared the winner." - ChatGPT
@@ -74,6 +77,10 @@ Project Thor: US’s Most lethal Non-nuclear Weapon!: https://www.youtube.com/wa
 
 
 
+
+========
+Fargo: Wood Chipper Scene: https://www.youtube.com/watch?v=Q6OR71VU010
+Fargo (1996) - A Little Bit of Money Scene (12/12) | Movieclips: https://www.youtube.com/watch?v=0hL-fpCsGR8
 ========
 >(^_^)<
 A New Way to Achieve Nuclear Fusion: Helion: https://www.youtube.com/watch?v=_bDXXWQxK38

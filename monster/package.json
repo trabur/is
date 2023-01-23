@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:semiconductor": "npm run build && node build/semiconductor.js",
-    "start:pyramids": "npm run build && node build/pyramids.js",
+    "start:block-chain": "npm run build && node build/block-chain.js",
     "start:shop": "npm run build && node build/shop.js"
   },
   "dependencies": {
