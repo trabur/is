@@ -124,4 +124,4 @@ setInterval(() => {
   console.log('[0] DoD (Deparment of Defense) {123}');
   tax(A, B, C); deploy(military); command(military);
   console.log('////////////////////////');
-}, 1000)
+}, 1000);
