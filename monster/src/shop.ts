@@ -13,7 +13,7 @@ const products: string[] = [
   "#61afef", "#c678dd", "#56b6c2", "#AAA", 
 ];
 
-/** AIR CASTLE 1/4 */
+/** AIR CASTLE 1 OF 4 */
 interface Builder {
   hashPart1(): void; // A
   hashPart2(): void; // B
@@ -22,7 +22,7 @@ interface Builder {
   hashPart5(): void; // E
 }
 
-/** AIR CASTLE 2/4 */
+/** AIR CASTLE 2 OF 4 */
 class ConcreteBuilder implements Builder {
   private box!: Building;
   private sign: string = 'ABC';
@@ -61,7 +61,7 @@ class ConcreteBuilder implements Builder {
   }
 }
 
-/** AIR CASTLE 3/4 */
+/** AIR CASTLE 3 OF 4 */
 class Building {
   public stack: string[] = [];
   private triad: string = 'XYZ';
@@ -75,14 +75,20 @@ class Building {
   }
 
   public listOrders(): void {
-    console.log(`[${this.point}]`, chalk.bgHex(this.paint)(`${pitch}${this.triad}${sales}:`));
+    console.log(
+      `[${this.point}]`,
+      chalk.bgHex(this.paint)(`${pitch}${this.triad}${sales}:`)
+    );
     this.stack.forEach((part, index) => {
-      console.log(`[${this.point}]`, chalk.hex(this.paint)(`${index + 1}) ${part}`));
+      console.log(
+        `[${this.point}]`,
+        chalk.hex(this.paint)(`${index + 1}) ${part}`)
+      );
     })
   }
 }
 
-/** AIR CASTLE 4/4 */
+/** AIR CASTLE 4 OF 4 */
 class Director {
   private crypto!: Builder;
 
