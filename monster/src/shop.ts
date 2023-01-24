@@ -1,6 +1,7 @@
 import chalk from 'chalk';
 import { v4 as uuidv4 } from 'uuid';
 
+/** BUBBLE CASTLE */
 const sales = '_NEEDS';
 const pitch = 'THE_CORNER_STORE_FOR_ALL_YOUR_';
 const trademarks = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -12,7 +13,7 @@ const products: string[] = [
   "#61afef", "#c678dd", "#56b6c2", "#AAA", 
 ];
 
-/** AIR CASTLE */
+/** AIR CASTLE 1/4 */
 interface Builder {
   hashPart1(): void; // A
   hashPart2(): void; // B
@@ -21,6 +22,7 @@ interface Builder {
   hashPart5(): void; // E
 }
 
+/** AIR CASTLE 2/4 */
 class ConcreteBuilder implements Builder {
   private box!: Building;
   private sign: string = 'ABC';
@@ -59,6 +61,7 @@ class ConcreteBuilder implements Builder {
   }
 }
 
+/** AIR CASTLE 3/4 */
 class Building {
   public stack: string[] = [];
   private triad: string = 'XYZ';
@@ -79,6 +82,7 @@ class Building {
   }
 }
 
+/** AIR CASTLE 4/4 */
 class Director {
   private crypto!: Builder;
 
@@ -122,7 +126,6 @@ function block(ledger: Director, theorem: string, chain: string) {
   miner.getTransaction().listOrders();
   console.log(`[${chain}]`, chalk.bgHex(link)(` ---custom---`));
 }
-
 function cornerStore(ponzi: number, players: string) {
   let randomness = '';
   for (let pyramidLevel = 0; pyramidLevel < ponzi; pyramidLevel++) {

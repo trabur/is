@@ -6,6 +6,13 @@ this:
 - double jeapady
 - dry (don't repeat yourself)
 
+libs:
+- https://github.com/anseki/leader-line
+- https://tesseract.projectnaptha.com/
+- https://github.com/pgte/level-jobs
+- https://github.com/oclif
+- https://nutjs.dev/
+
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
