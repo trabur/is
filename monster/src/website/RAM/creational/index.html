@@ -22,17 +22,15 @@
       }
       .container {
         width: 100%;
-        max-width: 1000px;
-        margin: 0 auto;
         position: relative;
       }
       .item {
         position: absolute;
         text-align: center;
-        font-size: 2em;
         font-weight: white;
         color: white;
-        line-height: 1.5em;
+        line-height: 2em;
+        font-size: 1.5em;
         border-radius: 5px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 1);
         overflow: hidden;
@@ -42,18 +40,6 @@
       .item img {
         max-width: 100%;
       }
-      .console {
-        margin: 2.5em auto;
-        border: 0.5em solid #000;
-        overflow: hidden;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 1);
-        background: #000;
-        width: 300px;
-      }
-      .console .log {
-        width: 100%;
-        height: 300px;
-      }
       .item .log {
         width: 100%;
         height: 300px;
@@ -61,9 +47,30 @@
       .title {
         margin: 0;
       }
+      .router {
+        margin: 0 auto;
+        border: 0.5em solid #fff;
+        overflow: hidden;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 1);
+        background: #000;
+        padding: 0.5em;
+      }
+      .WiFi {
+        color: #fff;
+        font-size: 2em;
+        font-weight: 900;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+      }
     </style>
   </header>
   <body>
+    <br />
+    <br />
+    <div style="max-width: 1000px; margin: 0 auto;">
+      <div class="router">
+        <div class="WiFi">o---<a href="/">isTrav</a>---o <span style="color: #888;">// creational patterns</span> <span style="float: right; color: #888;"><span style="color: #ffff00;">o---(</span><span style="color: #ff0000;">RAM</span><span style="color: #ffff00;">)</span></span></div>
+      </div>
+    </div>
     <br />
     <br />
     <div class="container block-chain">
@@ -72,35 +79,35 @@
           <source src="./block-chain/BLOCK-CHAIN.mp4" type="video/mp4" />
         </video>
         <hr style="border-color: #ff0000; margin: 0;">
-        prototype: <a href="./block-chain/" class="title">block-chain</a>
+        <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-{<span style="color: #ff0000;">prototype</span>}=[</span><a href="./block-chain/" class="title">block-chain</a><span style="color: #888;">]</span>
       </div>
       <div class="item" style="border: 1px solid #ff0000;">
         <video class="log" controls autoplay muted loop>
           <source src="./semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
         </video>
         <hr style="border-color: #ff0000; margin: 0;">
-        factory method: <a href="./machine/" class="title">machine</a>
+        <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-{<span style="color: #ff0000;">factory method</span>}=[</span><a href="./machine/" class="title">machine</a><span style="color: #888;">]</span>
       </div>
       <div class="item" style="border: 1px solid #ff0000;">
         <video class="log" controls autoplay muted loop>
           <source src="./semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
         </video>
         <hr style="border-color: #ff0000; margin: 0;">
-        abstract factory: <a href="./semiconductor/" class="title">semiconductor</a>
+        <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-{<span style="color: #ff0000;">abstract factory</span>}=[</span><a href="./semiconductor/" class="title">semiconductor</a><span style="color: #888;">]</span>
       </div>
       <div class="item" style="border: 1px solid #ff0000;">
         <video class="log" controls autoplay muted loop>
           <source src="./shop/SHOP.mp4" type="video/mp4" />
         </video>
         <hr style="border-color: #ff0000; margin: 0;">
-        builder: <a href="./shop/" class="title">shop</a>
+        <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-{<span style="color: #ff0000;">builder</span>}=[</span><a href="./shop/" class="title">shop</a><span style="color: #888;">]</span>
       </div>
       <div class="item" style="border: 1px solid #ff0000;">
         <video class="log" controls autoplay muted loop>
           <source src="../../shredder.mp4" type="video/mp4" />
         </video>
         <hr style="border-color: #ff0000; margin: 0;">
-        singleton: <a href="./storyboard/" class="title">storyboard</a>
+        <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-{<span style="color: #ff0000;">singleton</span>}=[</span><a href="./storyboard/" class="title">storyboard</a><span style="color: #888;">]</span>
       </div>
     </div>
     <br />
