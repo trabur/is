@@ -53,9 +53,7 @@ Supernetting in network | Computer Networking: https://www.youtube.com/watch?v=m
 
 Runescape Archaeology How to Pass The Ritual Room (Infernal Source) [RS3]: https://www.youtube.com/watch?v=tgehrdJ31h0
 ========
-code for pyramids
-||6|5|||4|
-Philip the Engineer: https://www.youtube.com/watch?v=SbgXQGYOHbQ
+during music class everything is either a note or an instrument. just how do instruments produce notes anyways? perhaps it is the passing of air over some surface. simple enough. perhaps it is the passing of light over some surface. too complex. whatever the case may be giant structures like the Great Pyramid Of Giza are among the list of things that make me wonder.
 ========
 What is a general classification rider?
 "A general classification rider, also known as a GC rider, is a cyclist who is competing for the overall win in a multi-stage cycling race, such as the Tour de France. The GC rider is typically considered to be the strongest rider in the race and is often the leader of their team. They are typically good at all aspects of cycling, including climbing, time trialing, and sprinting. The leader in overall classification is often determined by time and the rider with the lowest total time at the end of the race is declared the winner." - ChatGPT
