@@ -18,7 +18,7 @@
   "dependencies": {
     "@oclif/core": "^1.23.0",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.9",
+    "@oclif/plugin-plugins": "^2.2.4",
     "say": "^0.16.0",
     "uuid": "^9.0.0"
   },
